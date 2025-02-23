@@ -1,0 +1,45 @@
+﻿@model BookDetailsViewModel
+
+@{
+    ViewBag.Title = "Kitap Detayları";
+}
+
+<div class="container mt-5">
+    <h2>Kitap Detayları</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>@Model.Title</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Yazar:</dt>
+                <dd class="col-sm-8">@Model.AuthorName</dd>
+
+                <dt class="col-sm-4">Tür:</dt>
+                <dd class="col-sm-8">@Model.Genre</dd>
+
+                <dt class="col-sm-4">Yayın Tarihi:</dt>
+                <dd class="col-sm-8">@Model.PublishDate.ToShortDateString()</dd>
+
+                <dt class="col-sm-4">ISBN:</dt>
+                <dd class="col-sm-8">@Model.ISBN</dd>
+
+                <dt class="col-sm-4">Mevcut Kopya Sayısı:</dt>
+                <dd class="col-sm-8">@Model.CopiesAvailable</dd>
+            </dl>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Yazar Bilgileri</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Toplam Kitap Sayısı:</dt>
+                <dd class="col-sm-8">@Model.AuthorBookCount</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Düzenle</a>
+        <a asp-action="List" class="btn btn-secondary">Listeye Dön</a>
+    </div>
+</div>

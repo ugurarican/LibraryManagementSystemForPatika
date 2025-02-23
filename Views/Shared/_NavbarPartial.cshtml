@@ -1,0 +1,24 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="/">Patika Kütüphane</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" asp-controller="Book" asp-action="List">Kitaplar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" asp-controller="Author" asp-action="List">Yazarlar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" asp-controller="Home" asp-action="About">Hakkında</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
