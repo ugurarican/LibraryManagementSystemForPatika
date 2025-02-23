@@ -119,29 +119,43 @@ Projenizde bulunması gereken sayfalar : Ana Sayfa - Hakkında
 ## NOT  
 ### Bir kitabın bir yazarı olduğu için foreign key olarak AuthorId tanımlandı ve kitapların yazarları Edit, Add actionlarına viewbag yardımı ile gönderildi, fakat bir yazarın birden fazla kitabı olacabileceği için ilgili Author modellerine kitaplar liste şeklinde tanımlandı.  
 ## Programın Ekran Görüntüleri  
-![AnaSayfa](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/Anasayfa.png)  
+
 #### Programın Ana Sayfası  
-![KitapList](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapList.png)  
+![AnaSayfa](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/Anasayfa.png)  
+
 #### Kitapların Listesi  
-![KitapDetail](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapDetaylar.png)  
+![KitapList](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapList.png)  
+
 #### Kitap Detayı  
-![KitapEdit](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapD%C3%BCzenleme-1.png)  
+![KitapDetail](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapDetaylar.png)  
+
 #### Kitap Düzenleme  
-![KitapValidation](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapD%C3%BCzenlemeValidation.png)  
+![KitapEdit](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapD%C3%BCzenleme-1.png)  
+
 #### Kitap Düzenleme ve Ekleme için Validationlar  
-![KitapAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YeniKitapEkle.png)  
+![KitapValidation](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapD%C3%BCzenlemeValidation.png)  
+
 #### Kitap Ekleme  
-![AfterBookAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapEklenmi%C5%9FHali.png)  
+![KitapAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YeniKitapEkle.png)  
+
 #### Yeni Kitap Eklenmiş Hali  
-![AuthorList](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarListesi.png)  
+![AfterBookAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/KitapEklenmi%C5%9FHali.png)  
+
 #### Yazarların Listesi  
-![AuthorDetails](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarDetails.png)  
+![AuthorList](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarListesi.png)  
+
 #### Yazar Detayı  
-![AuthorEdit](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarD%C3%BCzenleme.png)  
+![AuthorDetails](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarDetails.png)  
+
 #### Yazar Düzenleme  
-![AuthorValidation](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarValidation.png)  
+![AuthorEdit](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarD%C3%BCzenleme.png)  
+
 #### Yazar Düzenleme ve Ekleme için Validationlar  
-![AuthorAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarEkleme.png)  
+![AuthorValidation](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarValidation.png)  
+
 #### Yazar Ekleme  
-![AfterAuthorAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarEklenmi%C5%9FHali.png)  
+![AuthorAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarEkleme.png)  
+
 #### Yazar Eklenmiş Hali  
+![AfterAuthorAdd](https://github.com/ugurarican/LibraryManagementSystemForPatika/blob/master/wwwroot/PatikaK%C3%BCt%C3%BCphane/YazarEklenmi%C5%9FHali.png)  
+
