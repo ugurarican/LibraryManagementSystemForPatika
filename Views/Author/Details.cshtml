@@ -1,0 +1,46 @@
+﻿@model AuthorDetailsViewModel
+
+@{
+    ViewBag.Title = "Yazar Detayları";
+}
+
+<div class="container mt-5">
+    <h2>Yazar Detayları</h2>
+    <hr />
+
+    <h4>@Model.FullName</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Doğum Tarihi:</dt>
+        <dd class="col-sm-10">@Model.DateOfBirth.ToShortDateString()</dd>
+    </dl>
+
+    <h4>Kitaplar</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Başlık</th>
+                <th>Tür</th>
+                <th>Yayın Tarihi</th>
+                <th>ISBN</th>
+                <th>Mevcut Kopya Sayısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Genre</td>
+                    <td>@book.PublishDate.ToShortDateString()</td>
+                    <td>@book.ISBN</td>
+                    <td>@book.CopiesAvailable</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Düzenle</a>
+        <a asp-action="List" class="btn btn-secondary">Listeye Dön</a>
+    </div>
+</div>
